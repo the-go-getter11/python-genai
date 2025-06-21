@@ -17,8 +17,24 @@
 
 from . import version
 from .client import Client
+from .rag_engine import (
+    Evento,
+    extract_zip,
+    parse_txt,
+    transcribe_audio,
+    analyze_media,
+    build_index,
+)
 
 
 __version__ = version.__version__
 
-__all__ = ['Client']
+__all__ = [
+    'Client',
+    'Evento',
+    'extract_zip',
+    'parse_txt',
+    'transcribe_audio',
+    'analyze_media',
+    'build_index',
+]
