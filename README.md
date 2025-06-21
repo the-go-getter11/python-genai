@@ -55,6 +55,9 @@ You can create a client by configuring the necessary environment variables.
 Configuration setup instructions depends on whether you're using the Gemini
 Developer API or the Gemini API in Vertex AI.
 
+You may start by copying the provided `.env.example` file to `.env` and then
+populate `GEMINI_API_KEY` with your own token.
+
 **Gemini Developer API:** Set `GOOGLE_API_KEY` as shown below:
 
 ```bash
