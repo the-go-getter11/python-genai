@@ -26,3 +26,10 @@ typing_extensions==4.12.2
 urllib3==2.2.3
 websockets==15.0.0
 mcp==1.8.1; python_version > '3.9'
+pdfminer.six
+Pillow
+ffmpeg-python
+openai-whisper
+python-dotenv
+google-genai
+rich
