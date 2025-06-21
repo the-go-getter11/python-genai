@@ -21,6 +21,21 @@ APIs.
 pip install google-genai
 ```
 
+Alternatively, clone this repository and install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Copy `.env.example` to `.env` and add your `GEMINI_API_KEY`.
+
+### Running the pipeline and chat
+
+```bash
+python main.py pipeline path/para/WhatsApp.zip
+python main.py chat
+```
+
 ## Imports
 
 ```python
